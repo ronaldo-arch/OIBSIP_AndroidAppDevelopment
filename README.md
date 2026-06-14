@@ -30,8 +30,3 @@ Each folder is its own complete Android Studio project and contains:
 - compileSdk **34**, minSdk **24**
 - Material Components 1.12.0, AndroidX
 - DayNight (Auto) theming via `values/themes.xml` + `values-night/themes.xml`
-
-## Note
-The Gradle wrapper (`gradle/wrapper/gradle-wrapper.jar`) is intentionally omitted from the
-zip to keep submissions small. On first open, Android Studio will offer to create the wrapper
-automatically (or run `gradle wrapper` once inside the project folder).
