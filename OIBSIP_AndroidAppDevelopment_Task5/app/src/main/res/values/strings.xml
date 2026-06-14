@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stopwatch</string>
+    <string name="title">Stopwatch</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_hold">Hold</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_lap">Lap</string>
+    <string name="btn_reset">Reset</string>
+    <string name="laps_header">Lap times</string>
+    <string name="no_laps">No laps yet — press Lap to record splits.</string>
+</resources>

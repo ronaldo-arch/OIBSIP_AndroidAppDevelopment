@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="title_main">Unit Converter</string>
+    <string name="subtitle_main">Convert between units instantly</string>
+    <string name="hint_value">Enter value</string>
+    <string name="label_from">From</string>
+    <string name="label_to">To</string>
+    <string name="label_category">Category</string>
+    <string name="action_swap">Swap</string>
+    <string name="action_convert">Convert</string>
+    <string name="action_clear">Clear</string>
+    <string name="result_label">Result</string>
+    <string name="error_invalid">Please enter a valid number</string>
+    <string name="error_same_unit">From and To units are the same</string>
+
+    <string-array name="categories">
+        <item>Length</item>
+        <item>Mass</item>
+        <item>Temperature</item>
+        <item>Volume</item>
+        <item>Time</item>
+        <item>Speed</item>
+    </string-array>
+</resources>

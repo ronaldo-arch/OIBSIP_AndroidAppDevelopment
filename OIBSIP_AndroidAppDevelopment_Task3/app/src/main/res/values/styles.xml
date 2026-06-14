@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:grid="http://schemas.android.com/apk/res-auto">
+    <style name="CalcKey" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="grid:layout_columnWeight">1</item>
+        <item name="grid:layout_rowWeight">1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="CalcKeyTonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="grid:layout_columnWeight">1</item>
+        <item name="grid:layout_rowWeight">1</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="CalcKeyOp" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="grid:layout_columnWeight">1</item>
+        <item name="grid:layout_rowWeight">1</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="CalcKeyEq" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="grid:layout_columnWeight">1</item>
+        <item name="grid:layout_rowWeight">1</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

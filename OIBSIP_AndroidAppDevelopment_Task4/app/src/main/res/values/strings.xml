@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="title_main">General Knowledge Quiz</string>
+    <string name="subtitle_main">15 questions • 4 options each • 20s per question</string>
+    <string name="btn_start">Start Quiz</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="result_title">Your Score</string>
+    <string name="retry">Try Again</string>
+    <string name="back_home">Back to Home</string>
+    <string name="time_left">Time left: %1$ds</string>
+</resources>

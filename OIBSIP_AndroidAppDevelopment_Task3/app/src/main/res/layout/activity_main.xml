@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="@string/title"
+        app:titleTextColor="@color/md_on_primary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/tvExpression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="24sp"
+            android:alpha="0.6"
+            android:singleLine="true"
+            android:ellipsize="start"/>
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="56sp"
+            android:textStyle="bold"
+            android:text="0"
+            android:singleLine="true"
+            android:ellipsize="start"/>
+    </LinearLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        xmlns:grid="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        grid:columnCount="4"
+        grid:rowCount="6">
+
+        <!-- row 1: scientific row -->
+        <com.google.android.material.button.MaterialButton android:id="@+id/bSin"  style="@style/CalcKeyTonal" android:text="sin"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bCos"  style="@style/CalcKeyTonal" android:text="cos"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bTan"  style="@style/CalcKeyTonal" android:text="tan"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bSqrt" style="@style/CalcKeyTonal" android:text="√"/>
+
+        <!-- row 2 -->
+        <com.google.android.material.button.MaterialButton android:id="@+id/bClear" style="@style/CalcKeyTonal" android:text="C"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bParenL" style="@style/CalcKeyTonal" android:text="("/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bParenR" style="@style/CalcKeyTonal" android:text=")"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bDiv"   style="@style/CalcKeyOp" android:text="÷"/>
+
+        <!-- row 3 -->
+        <com.google.android.material.button.MaterialButton android:id="@+id/b7" style="@style/CalcKey" android:text="7"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/b8" style="@style/CalcKey" android:text="8"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/b9" style="@style/CalcKey" android:text="9"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bMul" style="@style/CalcKeyOp" android:text="×"/>
+
+        <!-- row 4 -->
+        <com.google.android.material.button.MaterialButton android:id="@+id/b4" style="@style/CalcKey" android:text="4"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/b5" style="@style/CalcKey" android:text="5"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/b6" style="@style/CalcKey" android:text="6"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bSub" style="@style/CalcKeyOp" android:text="−"/>
+
+        <!-- row 5 -->
+        <com.google.android.material.button.MaterialButton android:id="@+id/b1" style="@style/CalcKey" android:text="1"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/b2" style="@style/CalcKey" android:text="2"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/b3" style="@style/CalcKey" android:text="3"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bAdd" style="@style/CalcKeyOp" android:text="+"/>
+
+        <!-- row 6 -->
+        <com.google.android.material.button.MaterialButton android:id="@+id/bBack" style="@style/CalcKeyTonal" android:text="⌫"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/b0"   style="@style/CalcKey" android:text="0"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bDot" style="@style/CalcKey" android:text="."/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/bEq"  style="@style/CalcKeyEq" android:text="="/>
+    </androidx.gridlayout.widget.GridLayout>
+</LinearLayout>

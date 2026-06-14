@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvEmoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:text="🎉"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/result_title"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="20sp"
+        android:alpha="0.7"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="16sp"
+        android:alpha="0.8"
+        android:layout_marginTop="8dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRetry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/retry"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnHome"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/back_home"/>
+</LinearLayout>

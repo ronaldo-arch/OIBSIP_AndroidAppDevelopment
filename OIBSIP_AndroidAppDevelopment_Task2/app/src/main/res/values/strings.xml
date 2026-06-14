@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Tasks</string>
+    <string name="login_title">Welcome back</string>
+    <string name="signup_title">Create account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="no_account">Don\'t have an account? Sign up</string>
+    <string name="has_account">Already have an account? Log in</string>
+    <string name="logout">Log out</string>
+    <string name="add">Add new</string>
+    <string name="tab_tasks">Tasks</string>
+    <string name="tab_events">Events</string>
+    <string name="tab_notes">Notes</string>
+    <string name="title_hint">Title</string>
+    <string name="body_hint">Description / details</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="empty_section">Nothing here yet — tap + to add your first item.</string>
+    <string name="err_empty">All fields are required</string>
+    <string name="err_invalid_email">Invalid email address</string>
+    <string name="err_short_pwd">Password must be at least 6 characters</string>
+    <string name="err_pwd_mismatch">Passwords don\'t match</string>
+    <string name="err_email_taken">That email is already registered</string>
+    <string name="err_bad_credentials">Wrong email or password</string>
+</resources>
