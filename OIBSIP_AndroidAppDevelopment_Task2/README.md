@@ -59,13 +59,6 @@ A complete, internship-grade Android app with:
 
 ---
 
-### 🚀 How to Run
-1. Open this folder in **Android Studio**.
-2. **File → Settings → Build → Gradle** → set **Gradle JDK = 17**.
-3. Gradle sync → **Run ▶** on an emulator or device.
-4. On first launch: tap **Sign up**, enter an email + password (≥ 6 chars), confirm — you're in!
-
----
 
 ### 📂 Architecture
 ```

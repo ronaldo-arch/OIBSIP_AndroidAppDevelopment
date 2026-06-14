@@ -51,12 +51,6 @@ A working stopwatch app featuring:
 
 ---
 
-### 🚀 How to Run
-1. Open this folder in **Android Studio**.
-2. **File → Settings → Build → Gradle** → set **Gradle JDK = 17**.
-3. Gradle sync → **Run ▶**.
-
----
 
 ### 📂 Project Structure
 ```

@@ -45,12 +45,6 @@ A working Android app with:
 
 ---
 
-### 🚀 How to Run
-1. Open this folder in **Android Studio**.
-2. **File → Settings → Build → Gradle** → set **Gradle JDK = 17**.
-3. Let Gradle sync, then press **Run ▶** on an emulator or physical device (API 24+).
-
----
 
 ### 📂 Project Structure
 ```
