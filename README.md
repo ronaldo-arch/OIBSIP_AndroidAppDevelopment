@@ -1,15 +1,15 @@
-# OIBSIP — Android App Development — All 5 Tasks
+# OIBSIP — Android Development — All 5 Tasks
 
 Five separate native Android Studio projects, submitted in the official **OIBSIP** format
-(`OIBSIP_AndroidAppDevelopment_Task<n>`).
+(`OIBSIP_AndroidDevelopment_Task<n>`).
 
 | Task | Folder | App |
 |---|---|---|
-| 1 | `OIBSIP_AndroidAppDevelopment_Task1` | **Unit Converter** |
-| 2 | `OIBSIP_AndroidAppDevelopment_Task2` | **Secure To-Do App** (Login + PBKDF2) |
-| 3 | `OIBSIP_AndroidAppDevelopment_Task3` | **Calculator** (with scientific ops) |
-| 4 | `OIBSIP_AndroidAppDevelopment_Task4` | **Quiz App** (15 GK questions + timer) |
-| 5 | `OIBSIP_AndroidAppDevelopment_Task5` | **Stopwatch** (with lap times) |
+| 1 | `OIBSIP_AndroidDevelopment_Task1` | **Unit Converter** |
+| 2 | `OIBSIP_AndroidDevelopment_Task2` | **Secure To-Do App** (Login + PBKDF2) |
+| 3 | `OIBSIP_AndroidDevelopment_Task3` | **Calculator** (with scientific ops) |
+| 4 | `OIBSIP_AndroidDevelopment_Task4` | **Quiz App** (15 GK questions + timer) |
+| 5 | `OIBSIP_AndroidDevelopment_Task5` | **Stopwatch** (with lap times) |
 
 Each folder is its own complete Android Studio project and contains:
 - `README.md` — Objective, Tools Used, Steps Performed, Outcome

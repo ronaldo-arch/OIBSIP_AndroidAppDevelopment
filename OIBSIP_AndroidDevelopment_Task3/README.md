@@ -1,4 +1,4 @@
-# OIBSIP — Android App Development — Task 3
+# OIBSIP — Android Development — Task 3
 ## Calculator
 
 A modern Android calculator that evaluates full mathematical expressions with operator precedence, parentheses, and scientific functions.

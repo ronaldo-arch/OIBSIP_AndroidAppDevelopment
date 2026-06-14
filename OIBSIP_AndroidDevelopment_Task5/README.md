@@ -1,4 +1,4 @@
-# OIBSIP — Android App Development — Task 5
+# OIBSIP — Android Development — Task 5
 ## Stopwatch
 
 A precise Android stopwatch with start, pause, reset, lap-time recording, and rotation safety.

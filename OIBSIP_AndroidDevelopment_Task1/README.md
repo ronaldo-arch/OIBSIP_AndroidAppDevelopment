@@ -1,4 +1,4 @@
-# OIBSIP — Android App Development — Task 1
+# OIBSIP — Android Development — Task 1
 ## Unit Converter
 
 A native Android application that converts values between different units across multiple measurement categories.

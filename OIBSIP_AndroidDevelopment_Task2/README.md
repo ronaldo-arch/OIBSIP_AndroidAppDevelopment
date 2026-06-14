@@ -1,4 +1,4 @@
-# OIBSIP — Android App Development — Task 2
+# OIBSIP — Android Development — Task 2
 ## Secure To-Do App (with Login / Sign-up)
 
 A multi-user Android app for managing personal **Tasks**, **Events**, and **Notes**, protected by a secure local authentication system.

@@ -1,4 +1,4 @@
-# OIBSIP — Android App Development — Task 4
+# OIBSIP — Android Development — Task 4
 ## Quiz App
 
 A multiple-choice General Knowledge quiz Android app with a per-question timer, instant feedback, and a final score screen.
