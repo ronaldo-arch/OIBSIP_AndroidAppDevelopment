@@ -16,14 +16,6 @@ Each folder is its own complete Android Studio project and contains:
 - `app/build.gradle`, `settings.gradle`, `build.gradle`, `gradle.properties`
 - Full `app/src/main/` (Java + XML + Material 3 day/night themes + adaptive launcher icon)
 
-## How to submit each task to GitHub
-
-1. Create a **new public repo** on GitHub named exactly `OIBSIP_AndroidAppDevelopment_Task1`
-   (repeat for Task2 … Task5).
-2. Copy the contents of the matching folder into that repo (`README.md` at the root).
-3. Add the description and topics from the per-task README in the GitHub repo settings.
-4. Push and you're done.
-
 ## Common stack
 - Java • Android Studio (Hedgehog+)
 - AGP **8.5.0** • Gradle **8.7** • JDK **17**
